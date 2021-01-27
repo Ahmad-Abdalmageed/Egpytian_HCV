@@ -40,9 +40,9 @@ Recorded by Ain Shams University, this [Data](https://archive.ics.uci.edu/ml/dat
 
 **Plat (Platelets)**: (Numerical) The count of blood platelets found. A normal platelet count ranges from 150,000 to 450,000 platelets per microliter of blood.
 
-**AST 1 (aspartate transaminase ratio)**: (Numerical) Measures the amount of AST enzyme in the blood. AST is normally found in red blood cells, liver, heart, muscle tissue, pancreas, and kidneys.Typically the range for normal AST is reported between 10 to 40 units per liter.
+**AST 1 (aspartate transaminase ratio)**: (Numerical) Measures the amount of AST enzyme in the blood. AST is normally found in red blood cells, liver, heart, muscle tissue, pancreas, and kidneys. Typically the range for normal AST is reported between 10 to 40 units per liter.
 
-**ALT 1 (alanine transaminase ratio 1 week)**: (Numerical) Measures the amount of ALT enzyme in the blood. it is an enzyme found mostly in the cells of the liver and kidney.the normal ALT range is between 7 to 56 units per liter.
+**ALT 1 (alanine transaminase ratio 1 week)**: (Numerical) Measures the amount of ALT enzyme in the blood. it is an enzyme found mostly in the cells of the liver and kidney the normal ALT range is between 7 to 56 units per liter.
 
 **ALT 4 (alanine transaminase ratio 12 weeks)**: (Numerical)
 
@@ -68,14 +68,17 @@ Recorded by Ain Shams University, this [Data](https://archive.ics.uci.edu/ml/dat
 
 **Baseline Histological Grading**: (Categorical) Is meant to reflect how quickly the disease is progressing to the end of it's current stage.
 
-**Baseline Histological staging**: (Categorical) It's a measure of how far the disease has progressed in its natural history, where at the end stage the organ fails. there are 4 stages: Portal fibrosis - Periportal fibrosis - Septal fibrosis - Cirrhosis.
+**Baseline Histological staging**: (Categorical) It's a measure of how far the disease has progressed in its natural history, where at the end stage the organ fails. there are 4 stages: Portal fibrosis - Peri portal fibrosis - Septal fibrosis - Cirrhosis.
 
 ## Proposed Methodology 
 
-1. **Data Preprocessing**: Exploring the data for potential problems, cleaning and preparing
+1. **Data Preprocessing**: Exploring the data for potential problems
+   - Data Cleaning: Removing potential problems in the data and make the data more tidy 
 2. **Exploratory Data Analysis**: Exploring the Data for Insightful Characteristics 
+   - Plotting the Relations between the Attributes and the Target variables which would explain more about their Relationships and Correlations 
 3. **Prototyping**: Instantiate a basic Model from potential ML Algorithms and find best Candidates
-4. **Feature Engineering and Fine Tunning**: Given the Data Exploration find the best correlating features and tune the model to it's best performance.
-
-
+   - Run a very basic Classification Algorithms on Clean Data
+   - Extract a few best Performing Models and move to the next phase
+4. **Fine Tunning**: Taking the best performing models and tune their parameters to drive the model to a better performance.
+5. **Feature Engineering**: Given the Data Exploration extract new information or edit the information given by our attributes to give better performance.
 
