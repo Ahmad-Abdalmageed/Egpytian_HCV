@@ -73,7 +73,7 @@ Recorded by Ain Shams University, this [Data](https://archive.ics.uci.edu/ml/dat
 ## Proposed Methodology 
 
 1. **Data Preprocessing**: Exploring the data for potential problems
-   - Data Cleaning: Removing potential problems in the data and make the data more tidy 
+   - Data Cleaning: Removing potential problems in the data and make the data more tidy, some of the attributes are categorical with values 1 and 2 which may induce error into the model.
 2. **Exploratory Data Analysis**: Exploring the Data for Insightful Characteristics 
    - Plotting the Relations between the Attributes and the Target variables which would explain more about their Relationships and Correlations 
 3. **Prototyping**: Instantiate a basic Model from potential ML Algorithms and find best Candidates
